@@ -1,0 +1,231 @@
+1. Trocar a lâmpada do cômodo:
+Instruções: Organizar as ações para trocar a lâmpada em um algoritmo simples.
+
+1. pegar na escada
+2. posicionar a escada embaixo da lâmpada
+3. subir na escada
+4. retirar a lâmpada velha
+5. buscar a lâmpada reserva
+6. colocar a lâmpada de reserva
+
+---
+
+2. Aula do Professor - Determinar o MDC de 36 e 60
+Instruções: Descobrir o MDC usando qualquer método.
+Resposta usando fatoração:
+Fatores de 36: 2² × 3²
+Fatores de 60: 2² × 3 × 5
+Fatores comuns: 2² × 3
+MDC(36, 60) = 4 × 3 = 12
+
+---
+
+3. Homem, rio e três cargas (resolver com lógica)
+Instruções: Um homem precisa atravessar um rio com uma alfafa, um lobo e uma ovelha, mas não pode deixar o lobo com a ovelha, nem a ovelha com a alfafa.
+Resposta passo a passo:
+
+1. Leva a ovelha (deixa lobo e alfafa)
+2. Volta sozinho
+3. Leva o lobo
+4. Volta com a ovelha
+5. Leva a alfafa
+6. Volta sozinho
+7. Leva a ovelha
+
+---
+
+4. Três jesuítas e três canibais
+Regra: Em nenhum momento os canibais podem ser maioria em qualquer lado.
+Resposta passo a passo (seguro):
+
+1. Leva 1 jesuíta e 1 canibal
+2. Volta o jesuíta
+3. Leva 2 canibais
+4. Volta 1 canibal
+5. Leva 2 jesuítas
+6. Volta 1 jesuíta e 1 canibal
+7. Leva 2 jesuítas
+8. Volta 1 canibal
+9. Leva 2 canibais
+
+---
+
+5. Torre de Hanói (3 discos)
+Objetivo: Mover todos os 3 discos da haste A para a haste C, seguindo as regras.
+
+1. Mover disco 1 de A para C
+2. Mover disco 2 de A para B
+3. Mover disco 1 de C para B
+4. Mover disco 3 de A para C
+5. Mover disco 1 de B para A
+6. Mover disco 2 de B para C
+7. Mover disco 1 de A para C
+
+---
+
+6. Mulheres no elevador:
+Artigos: livro, vestido, bolsa, gravata, chapéu, candelabro.
+
+Mulheres: Amanda, Bete, Camila, Divina, Elisa, Filomena.
+
+1. Amanda não entrou no elevador (comprou o livro no térreo)
+2. Dois homens entraram no elevador no 2º andar → Camila e a que comprou a gravata
+3. Camila comprou a gravata → Camila e um homem no 2º andar
+4. Terceiro andar → vestido
+5. Dois homens saíram no 4º andar
+6. Candelabro no 5º andar, mulher saiu sozinha
+7. Filomena desceu no 6º andar
+8. Bete recebeu a bolsa → marido da do 2º andar deu gravata → Camila
+9. Elisa foi a última a sair → 6º andar = Filomena → Elisa estava no 5º → candelabro
+
+Conclusão:
+
+Amanda → livro
+Camila → gravata
+Bete → bolsa
+Elisa → candelabro
+Filomena → chapéu
+Divina → vestido
+
+---
+
+7. João tem três barris.
+Barril A (vazio): capacidade de 8 litros
+Barril B: 5 litros
+Barril C: 3 litros
+Objetivo: deixar A e B com 4 litros cada, e o C vazio.
+
+Passo 1: Encher o barril C (3 litros)
+A = 0
+B = 5
+C = 3
+Passo 2: Despejar o conteúdo de C no A
+A = 3
+B = 5
+C = 0
+Passo 3: Encher C de novo
+A = 3
+B = 5
+C = 3
+Passo 4: Despejar o conteúdo de C no A (cabe só mais 5)
+A = 6
+B = 5
+C = 0
+Passo 5: Tirar 1 litro de A e colocar no C (C só cabe 3 e está vazio)
+A = 3 (porque tiramos 3 litros e jogamos no C)
+B = 5
+C = 3
+Passo 6: Esvaziar C
+A = 3
+B = 5
+C = 0
+Passo 7: Transferir 1 litro de B para C
+A = 3
+B = 4
+C = 1
+Passo 8: Passar o 1 litro de C para A
+A = 4
+B = 4
+C = 0
+
+Resultado final:
+Barril A = 4 litros
+Barril B = 4 litros
+Barril C = 0 litros
+
+---
+
+8. Quem toca o quê: João, Antônio e Francisco Dado: Antônio não é pianista, pianista ensaia terça, João com violoncelista quinta
+Passo 1: João ensaia com violoncelista => João não é violoncelista
+Passo 2: Antônio ≠ pianista
+Passo 3: Francisco = pianista
+Passo 4: João ≠ pianista, ≠ violoncelista => João = harpista
+Passo 5: Francisco = pianista => Antônio = violoncelista
+Resultado:
+João: harpa
+Antônio: violoncelo
+Francisco: piano
+
+---
+
+9. Doze amigos e suas bebidas preferidas:
+Amigos: João, Miguel, Nádia, Sílvia, Afonso, Cristina, Geraldo, Júlio, Maria, Máximo, Manuel e Ivone
+Bebidas: limonada, guaraná, whisky, vinho, champanhe, água, laranja, café, chá, vermouth, cerveja, vodka
+ tabela 
+João	café ou chá
+Miguel	café ou chá
+Júlio	guaraná ou whisky
+Geraldo	guaraná ou whisky
+Nádia	≠ limonada, vinho
+Maria	≠ limonada, vinho
+Sílvia	≠ café
+Afonso	≠ café
+Máximo	≠ guaraná
+Manuel	≠ guaraná
+
+Pela pista do futebol:
+João e Miguel = café e chá
+Como quem gosta de café foi nadar com Sílvia e Afonso, e João jogou futebol e nadou, então João = café => Miguel = chá
+
+Pela pista do futebol:
+Júlio e Geraldo = guaraná e whisky
+E Júlio foi ao cinema com champanhe e água => Júlio ≠ champanhe ou água
+=> Geraldo ≠ champanhe ou água também
+
+Pela pista do teatro:
+Miguel foi com quem gosta de guaraná e vodka
+=> Miguel ≠ essas bebidas
+=> Como Geraldo e Júlio são guaraná e whisky, e Júlio já não pode ser guaraná, então Geraldo = guaraná, Júlio = whisky
+
+Pela pista do cinema:
+Júlio foi com quem gosta de champanhe e água
+=> Júlio ≠ essas bebidas
+=> Champanhe e água são de outros 2 amigos
+=> Restam: Nádia, Cristina, Ivone, Maria, Máximo, Manuel
+Usaremos esses para testar mais combinações
+
+Pela pista da rua:
+Guaraná encontrou Máximo e Manuel na rua
+=> Guaraná = Geraldo (confirmado) => Geraldo encontrou Máximo e Manuel
+=> Logo, Máximo ≠ guaraná, Manuel ≠ guaraná
+
+Com isso:
+Nome	Bebida
+
+João	café
+Miguel	chá
+Júlio	whisky
+Geraldo	guaraná
+Nádia	champanhe
+Sílvia	vinho
+Afonso	cerveja
+Cristina	limonada
+Maria	água
+Máximo	vodka
+Manuel	vermouth
+Ivone	laranja
+
+---
+
+10
+10. Atletismo:
+Passo 1: Gumercindo venceu Barnabé no salto em distância
+Passo 2: Teodoro chegou atrás de Gumercindo no dardo => Gumercindo foi melhor
+Passo 3: Barnabé não venceu os 100m => outro venceu
+Possibilidades:
+
+Gumercindo: salto
+Teodoro: dardo
+Barnabé: 100m (mas não em 1º) => foi 2º ou 3º
+Combinando:
+
+Gumercindo: 1º no salto
+Teodoro: 1º no dardo
+Barnabé: 2º ou 3º nos 100m
+Só resta Barnabé com 1º no salto ou 3º no dardo. Como Teodoro chegou atrás dele no dardo, Barnabé foi 2º no dardo
+=> Sobra 3º para Barnabé nos 100m
+
+Resultado:
+Gumercindo: salto (1º)
+Teodoro: dardo (1º)
+Barnabé: 3º nos 100m
