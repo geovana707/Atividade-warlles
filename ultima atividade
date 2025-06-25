@@ -41,20 +41,23 @@ programa {
 }
 
 b)
-programa {
-  funcao inicio() {
-    //Declaração de variavel
-    cadeia nome, sobrenome
+programa
+{
+    funcao inicio()
+    {
+        // Declaração de variáveis
+        cadeia nome, sobrenome
 
-    //Entrada de Dados
-    escreva("Qual seu nome: ")
-    leia(nome)
-    escreva("qual seu sobrenome: ")
-    leia(sobrenome)
+        // Entrada de dados
+        escreva("informe o nome: ")
+        leia(nome)
+        escreva("informe o sobrenome: ")
+        leia(sobrenome)
 
-    //Saida de dados
-    escreva("O seu nome ao contrário é ", sobrenome , nome)
-  }
+        // Saída nos dois formatos
+        escreva("Formato brasileiro: ", nome, " ", sobrenome, " " )
+        escreva("Formato invertido: ", sobrenome, " ", nome)
+    }
 }
 
 c)
@@ -152,7 +155,7 @@ programa {
     libras = reais/7.45
 
     //saida de Dados 
-    escreva("o valor em dolares em ", dolares, " Em euros ", euro, " Em libra " , libras)
+    escreva("o valor em dolares é ", dolares, " Em euros ", euro, " Em libra " , libras)
   }
 }
 
