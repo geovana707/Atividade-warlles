@@ -53,24 +53,24 @@ programa {
     real altura,peso
     
     //Declaração de constante
-    const real k=72.7
-    const  inteiro b=58
+     real k=72.7
+     inteiro b=58
 
     //Entrada de dados 
-    escreva("Informe a altura")
+    escreva("Informe a altura: ")
     leia(altura)
 
     //Processamento
     peso= k*altura-b
 
     //Saída de dados
-    escreva("O seu peso ideal é", peso)
- 
-
-
+    escreva("O seu peso ideal é: ", peso, "kg")
   }
 }
+
 06 -
+programa {
+  funcao inicio() {
 //Declaração de variavel
     real x, y, troca
 
@@ -86,11 +86,13 @@ programa {
     y = troca
 
     // Saida de dados
-    escreva("O valor x ", x , " O valor y ", y,"trocado é: ",x,y)
+    escreva("O valor x: ", x ,  " e valor y: ", y,","," trocados são: ",y,"  e ",x, " respectivamente.")
  }
 }
 
 07-
+programa {
+  funcao inicio() {
 //Declaração de variável
     real raio, diametro, comprimento, area
 
@@ -104,7 +106,10 @@ programa {
     area = (raio * raio) * 3.14
 
     //Saida de Dados
-    escreva("Com o raio ", raio , " o diametro é: " , diametro, " o comprimento sera: ", comprimento, " e área será: ", area)
+    escreva("Com o raio ", raio,",", " o diametro será: " , diametro,",", " comprimento será: ", comprimento, " e área será: ", area)
+  }
+}
+
 08 -
 programa {
   funcao inicio() {
@@ -119,7 +124,7 @@ programa {
     fahrenheit = celcius * 9/5 + 32
 
     //saida de dados
-    escreva(" a temperatura em fahrenhat é: ", fahrenheit)
+    escreva(" a temperatura em fahrenhat é: ", fahrenheit,".")
 
   }
 }
@@ -128,19 +133,18 @@ programa {
 programa {
   funcao inicio() {
     //Declaração de variavel
-    inteiro n, centena, dezena, unidade, cont 
+    inteiro normal, centena, dezena, unidade,invertido 
 
     //Entrada de Dados 
-    escreva("Informe um número com três digitos: ")
-    leia(n)
+    escreva("Informe o valor da unidade: ")
+    leia(unidade)
+    escreva("informe o valor da dezena: ")
+    leia(dezena)
+     escreva("informe o valor da centena: ")
+    leia(centena)
 
-    //processamento
-    centena = n / 100
-    cont = n % 100
-    dezena = cont / 10
-    cont = cont % 10
-    unidade = cont
-    escreva("O número ao contrário é: ", unidade, dezena, centena)
+    //saida de dados
+    escreva("o numero normal é: ",unidade,dezena,centena," e ","O número ao contrário é: ", centena,dezena,unidade,".")
   }
 }
 
@@ -151,7 +155,7 @@ programa {
      real g1, g2, g3
 
      //Declaração de constante
-     const inteiro valor_total = 780.000
+     inteiro valor_total = 780.000
 
     //Entrada de Dados
 
@@ -161,6 +165,6 @@ programa {
      g3 = valor_total * 0.22
 
      //saida dos dados
-     escreva("O premio para o primeiro ganhador sera: ", g1 ,"O segundo será: ", g2 , " e o terceiro: ", g3)
+     escreva("O premio para o primeiro colocado será: ", g1," reais, " ,"para o segundo será: ", g2," reais", " e para o terceiro: ", g3," reais.")
   }
 }
