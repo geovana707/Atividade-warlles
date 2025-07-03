@@ -55,8 +55,8 @@ programa
         leia(sobrenome)
 
         // Saída nos dois formatos
-        escreva("Formato brasileiro: ", nome, " ", sobrenome, " " )
-        escreva("Formato invertido: ", sobrenome, " ", nome)
+        escreva("brasileiro: ", nome, " ", sobrenome, " " )
+        escreva("invertido: ", sobrenome, " ", nome)
     }
 }
 
@@ -64,20 +64,20 @@ c)
 programa {
   funcao inicio() {
     //Declaração de variavel
-      inteiro n1, n2 , soma, sub, multi, divi, resto
+      inteiro num1, num2 , soma, sub, multi, divi, resto
 
     //Entrada de Dados
       escreva("escreva o primeiro numero: ")
-      leia(n1)
+      leia(num1)
       escreva("escreva o segundo numero: ")
-      leia(n2)
+      leia(num2)
 
     //processamento
-    soma = n1 + n2
-    sub = n1 - n2
-    multi = n1 * n2
-    divi = n1 / n2
-    resto = n1 % n2
+    soma = num1 + num2
+    sub = num1 - num2
+    multi = num1 * num2
+    divi = num1 / num2
+    resto = num1 % num2
     //Saida de dados
       escreva("A soma é ", soma, " A subtração é ", sub, " A multiplicação é ", multi, " A divisão é ", divi, " E o resto é ", resto)
   }
@@ -112,7 +112,7 @@ e)programa {
     //Processamento
     celsius =((farenheit - 32) * 5) / 9
     //saida de Dados 
-    escreva("A temeperatura em celsius ", celsius, " graus celsius ")
+    escreva("A temeperatura em celsius ", celsius)
   }
 }
 
@@ -135,7 +135,7 @@ programa {
     volume = raio * pi * altura
 
     //saida de Dados 
-    escreva("O valor do volume interno do recipiente é ", volume , "L")
+    escreva("O valor do volume interno é ", volume )
   }
 }
 
@@ -163,7 +163,7 @@ h)
 programa {
   funcao inicio() {
     //Declaração de variavel 
-    real dolar, euro, libra, conversor, gasto, eua, reinounido, franca
+    real dolar, euro, libra, conver, gasto, eua, reino, franca
 
     //Declaração de constantes
     const inteiro reais = 60.000
@@ -177,11 +177,11 @@ programa {
     gasto = dolar * 5.4
     eua = reais - gasto
     libra = 8500
-    conversor = libra * 7.38
-    reinounido = eua - conversor
+    conver = libra * 7.38
+    reino = eua - conver
     euro = 4.500
-    conversor = 4.500 * 6.3
-    franca = reinounido - conversor
+    conver = 4.500 * 6.3
+    franca = reino - conver
     //saida de Dados 
     escreva("O que sobrou foi", franca)
   }
@@ -202,10 +202,10 @@ programa {
      leia(cidade)
     escreva("Informe seu endereço: ")
     leia(endereco)
-    escreva("informe o telefone: ")
-    leia(telefone)
-    escreva("Informe seu email: ")
+    escreva("informe o email: ")
     leia(email)
+    escreva("Informe seu telefone: ")
+    leia(telefone)
 
    //Saida de Dados
    escreva("------------------------------------------------------------------------------- \n ")
