@@ -7,20 +7,20 @@ programa {
       real not1,not2,not3,not4,media
 
       //Entrada de dados
-      escreva("Informe a primeira nota")
+      escreva("Informe a primeira nota: ")
       leia(not1)
-      escreva("Informe a segunda nota")
+      escreva("Informe a segunda nota: ")
       leia(not2)
-      escreva("Informe a terceira nota")
+      escreva("Informe a terceira nota: ")
       leia(not3)
-      escreva("Informe a quarta nota")
+      escreva("Informe a quarta nota: ")
       leia(not4)
 
       //Processamento
       media= not1+ not2+ not3 + not4/4
 
       //Saída de dados 
-      escreva("A media aritmetica do aluno é", media)
+      escreva("A media aritmetica do aluno é: ", media)
   
  }
 }
@@ -32,17 +32,17 @@ programa {
     real janeiro,fevereiro,marco,media
 
     //Entrada de dados
-    escreva("Informe o valor gasto em janeiro")
+    escreva("Informe o valor gasto em janeiro: ")
     leia (janeiro)
-    escreva("Informe o valor gasto em fevereiro")
+    escreva("Informe o valor gasto em fevereiro: ")
     leia(fevereiro)
-    escreva("Informe o valor gasto em março")
+    escreva("Informe o valor gasto em março: ")
     leia(marco)
     //Processamento 
     media = janeiro+fevereiro+marco/3
 
     //Saída de dados 
-    escreva("A média aritmética é", media)
+    escreva("A média aritmética é: ", media)
   }
 }
 
@@ -151,16 +151,16 @@ programa {
      real g1, g2, g3
 
      //Declaração de constante
-     const inteiro valortotal = 780.000
+     const inteiro valor_total = 780.000
 
     //Entrada de Dados
 
     //processamento
-     g1 = valortotal * 0.46
-     g2 = valortotal * 0.32
-     g3 = valortotal * 0.22
+     g1 = valor_total * 0.46
+     g2 = valor_total * 0.32
+     g3 = valor_total * 0.22
 
      //saida dos dados
-     escreva("O premio para o primeiro ganhador sera ", g1 ,"O segundo será ", g2 , "o terceiro ", g3)
+     escreva("O premio para o primeiro ganhador sera: ", g1 ,"O segundo será: ", g2 , " e o terceiro: ", g3)
   }
 }
