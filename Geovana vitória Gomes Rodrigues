@@ -1,4 +1,4 @@
-*QUESTÕES WARLLES*
+atividades 
 
 03 - 
 programa {
@@ -17,7 +17,7 @@ programa {
       leia(not4)
 
       //Processamento
-      media_Aritmetica= not1+ not2+ not3 + not4/4
+      media= not1+ not2+ not3 + not4/4
 
       //Saída de dados 
       escreva("A media aritmetica do aluno é", media)
